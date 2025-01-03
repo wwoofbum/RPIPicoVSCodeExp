@@ -1,3 +1,7 @@
+# Get CMAKE_PROJECT_NAME
+message("Project name from parent: ${MY_PROJECT_NAME}")
+set(CMAKE_PROJECT_NAME ${MY_PROJECT_NAME})
+
 add_executable(${NAME}
         main.c
         )
